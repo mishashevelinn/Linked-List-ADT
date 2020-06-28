@@ -40,7 +40,7 @@ int main() {
 
  /****************************TEST**FOR**STRINGS********************************/
 
-    char * abc[] = {"misha", "Galois", "Lagrange", "adir", "L'opital"};
+    char * abc[] = {"Galois is cool", "misha", "Lagrange", "adir", "L'opital"};
     LinkedList ll = LLCreate();
     LLNode lln = NULL;
     int i;
@@ -51,7 +51,7 @@ int main() {
     LLRemove(ll, abc[i], str_cmp);
     i = 9;
     LLRemove(ll, abc[i], str_cmp);
-    printf("\n--------RUNNING---TEST----FOR-----STRINGS----------------\n");
+    printf("\n--------RUNNING---TEST----FOR-----STRINGS-----------------\n");
     printf("The list contains %d elements after adding 5 and removing 1\n", LLSize(ll));
     printf("Items:\n");
     for (lln = LLFirst(ll); lln; lln = LLNext(lln))
