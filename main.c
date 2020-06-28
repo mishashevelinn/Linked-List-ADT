@@ -40,7 +40,7 @@ int main() {
 
  /****************************TEST**FOR**STRINGS********************************/
 
-    char * abc[] = {"Galois is cool", "misha", "Lagrange", "adir", "L'opital"};
+    char * abc[] = {"Galois is cool", "misha", "Lagrange", "adir", "L'hopital"};
     LinkedList ll = LLCreate();
     LLNode lln = NULL;
     int i;
