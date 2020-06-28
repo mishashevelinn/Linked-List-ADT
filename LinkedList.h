@@ -29,7 +29,7 @@ void LLRemove(LinkedList, Element, cmp);
 void LLDestroy(LinkedList, cmp);
 
 /*Add element to the list*/
-void LLAdd(LinkedList, Element, int);
+void LLAdd(LinkedList, Element, unsigned int);
 
 /*Get the number of elements in the list*/
 int LLSize(LinkedList);

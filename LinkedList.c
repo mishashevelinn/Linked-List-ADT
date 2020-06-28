@@ -68,8 +68,8 @@ void LLDestroy(LinkedList ll, cmp compare) {
 }
 
 /*************************************************************************************************/
-void LLAdd(LinkedList ll, Element e, int data_size) {
-    Element p = malloc(sizeof(data_size));
+void LLAdd(LinkedList ll, Element e, unsigned int data_size) {
+    Element p =  malloc(data_size);
     if (p == NULL) {
         fprintf(stderr, "%s, %d: failed to allocate memory for new int\n", __FILE__, __LINE__);
         exit(-1);
